@@ -5,33 +5,37 @@
 
 .navbar {
     background-color: #1f2937;
+    padding-bottom: 20px;
 }
 
 .logo {
+    display: inline-block;
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0;
+    width: 250px;
     padding-top: 18px;
     padding-left: 208px;
 }
 
 .header_nav {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 150px;
+    display: inline;
+    float: right;
+    padding-top: 22px;
+    padding-right: 115px;
     list-style: none;
 }
 
 .header_nav>li {
-    margin-top: 20px;
+    display: inline;
 }
 
 .header_nav>li>a {
     color: #e5e7eb;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     text-decoration: none;
+    margin-right: 20px;
 }
